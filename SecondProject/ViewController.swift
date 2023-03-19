@@ -37,16 +37,17 @@ class ViewController: UIViewController {
         } else {
             switch currentLight {
             case 0:
-                redLight.alpha = 1
                 yellowLight.alpha = 0.3
+                greenLight.alpha = 0.3
+                redLight.alpha = 1
                 currentLight += 1
             case 1:
+                redLight.alpha = 0.3
                 yellowLight.alpha = 1
-                greenLight.alpha = 0.3
                 currentLight += 1
             case 2:
+                yellowLight.alpha = 0.3
                 greenLight.alpha = 1
-                redLight.alpha = 0.3
                 currentLight = 0
             default:
                 break
