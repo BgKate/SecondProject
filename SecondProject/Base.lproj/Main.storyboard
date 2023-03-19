@@ -67,7 +67,7 @@
                                             </attributedString>
                                         </buttonConfiguration>
                                         <connections>
-                                            <action selector="startButtonDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uJV-dX-bKz"/>
+                                            <action selector="startButtonDidTappedWithStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IfE-r9-vbZ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -85,6 +85,7 @@
                     <connections>
                         <outlet property="greenLight" destination="b6X-Ls-Gnd" id="PEx-dK-W9Q"/>
                         <outlet property="redLight" destination="Klw-L4-yZw" id="zbY-qY-GvJ"/>
+                        <outlet property="startButton" destination="Hg8-6F-5CZ" id="SEs-PD-DCo"/>
                         <outlet property="yellowLight" destination="czR-bc-9DQ" id="T60-SQ-zL5"/>
                     </connections>
                 </viewController>
